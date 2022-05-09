@@ -2,7 +2,7 @@ var sec = 00
 var min =0
 var interval
 function start () {
-    interval= setInterval(contador, 1000)
+    interval= setInterval(contador, 100)
 }
 
 function pause() {
