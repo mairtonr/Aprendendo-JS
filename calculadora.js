@@ -16,6 +16,8 @@ function calculo() {
         document.getElementById('resultado').innerHTML = eval(resultado)
     }
     else{
-        document.getElementById('resultado').innerHTML = "Digite seu calculo"
+        document.getElementById('resultado').innerHTML = ""
     }
 }
+
+
