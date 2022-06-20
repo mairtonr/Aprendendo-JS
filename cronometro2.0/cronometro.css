@@ -1,0 +1,26 @@
+*{
+    text-align: center;
+}
+button{
+    height: 25px;
+    width: 87px;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#start{
+    background-color: rgb(49, 151, 49);
+
+}
+
+#pause{
+    background-color: gray;
+}
+
+#stop{
+    background-color: red;
+}
