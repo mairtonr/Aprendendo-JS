@@ -25,7 +25,6 @@ body{
 }
 
 .clock .number{
-    /* perguntar ao dd */
     --rotation: 0;
     position: absolute;
     width: 100%;
@@ -33,7 +32,6 @@ body{
     text-align: center;
     transform: rotate(var(--rotation));
     font-size: 1.8rem;
-    /* perguntat ao dd */
     font-weight: 500;
     padding: 10px;
 }
@@ -101,7 +99,6 @@ body{
     bottom: 50%;
     left: 50%;
     background-color: black;
-    /* perguntar ao dd */
     z-index: 10;
     transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
     transform-origin: bottom;
@@ -117,7 +114,7 @@ body{
 }
 
 .clock .hand.minutes{
-    width: 9px;
+    width: 8px;
     height: 35%;
     background-color: black;
 }
