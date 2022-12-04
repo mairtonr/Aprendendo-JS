@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Noto+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: medium;
+    font-weight: 500;
+}
+
+body{
+    background-color: rgba(146, 94, 161, 0.705);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+main{
+    background-color: rgba(156, 128, 165, 0.705);;
+    padding: 20px;
+    box-shadow: 0 1px 10px #ccc;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+main div{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+input{
+    padding: 5px;
+    outline: none;
+    accent-color: rgb(95, 36, 163);
+    border-color: rgb(95, 36, 163);
+    border-radius: 4px;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    appearance: none;
+    display: inline-block;
+    width: 90%;
+    height: 0.5em;
+    position: relative;
+    border-radius: 4.5px;
+    background-color: #6d28a5;
+    outline: none;
+}
+
+
+input[type=range]::-webkit-slider-thumb{
+    border-radius: 50%;
+}
+
+#inputLengthdId ::-webkit-slider-thumb{
+    width: 25px;
+    height: 25px;
+    border-radius: 500px;
+    background: rgb(69, 69, 102);
+}
+
+input[type=checkbox]{
+    color: rgb(95, 36, 163);
+    width: 18px;
+    height: 18px;
+}
+
+button{
+    background-color: rgb(95, 36, 163);
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+button:active{
+    box-shadow: inset 1px 3px 10px black;
+}
