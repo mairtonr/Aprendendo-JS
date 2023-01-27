@@ -112,4 +112,11 @@ function encerraJogo(vencedor = null) {
     } else {
         h3.innerHTML = "Empatou, jogue novamente"
     }
+
+
+    let contador = 3
+    setInterval(() => {
+        h3.innerHTML = `Reiniciando partida em ${contador--}`
+    }, 1000)
+    setInterval(() => location.reload(),4000)
 }
